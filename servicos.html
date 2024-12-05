@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+    }
+    h1{
+            margin-top:20px;
+            margin-left:60px;
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: medium 3px;
+            position: relative;
+            animation: mymove 2s;
+            animation-fill-mode: forwards;
+        }
+            #div1 {animation-timing-function: ease;}
+
+        @keyframes mymove {
+  from {left: -100px;}
+  to {left:-25px;}
+        }
+.texto{
+    position: relative;
+            animation: mymove 2s;
+            animation-fill-mode: forwards;
+            text-align: justify;
+}
+      .linha {
+        border-bottom: 1px solid #ccc;
+        width: 50%;
+        margin: 20px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        ;
+        }
+    
+
+    .topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+footer {
+  background-color:#000000;
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.sections {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px auto;
+        max-width: 80%;
+        }
+        .section-box {
+        flex: 1 1 300px;
+        background-color: #f4f4f4;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-box h3 {
+        font-size: 1.5em;
+        color: #000000;
+        margin-bottom: 10px;
+        }
+        .section-box p {
+        color: #333;
+        }
+                
+  </style>
+</head>
+<body>
+
+  <div class="topnav">
+    <a href="index.html">Principal</a>
+    <a href="historia.html">História</a>
+    <a href="qmsomos.html">Quem somos</a>
+    <a href="servicos.html" >Serviços</a>
+    <a href="contato.html" >Contato</a>
+    
+</div>
+  <div class="header"> 
+</div>
+  <h1 id="div1">Nossos Serviços</h1>
+  <div class="linha"></div>
+  <div id="div1" class="texto">
+      <div class="section-box">
+      <h3>Consultoria de Estilo</h3>
+      <p>Consultores especializados ajudam os clientes a escolher peças que combinam com seu estilo pessoal,<br>
+      ocasiões específicas ou tendências atuais do streetwear.<br><br></p>
+      </div>
+      <div class="section-box">
+      <h3>Personalização de Roupas</h3>
+      <p>Serviços como estampas personalizadas, bordados e ajustes específicos permitem que os clientes personalizem peças,<br>
+      tornando-as exclusivas.<br><br></p>
+      </div>
+      <div class="section-box">
+      <h3>Programa de Fidelidade e Descontos Exclusivos</h3>
+      <p>Programas de fidelidade, recompensas e descontos para clientes frequentes incentivam a retenção e aumentam o engajamento com a marca.<br><br></p>
+      </div>
+      <div class="section-box">
+      <h3>Serviços de Ajustes</h3>
+      <p>Disponibilizar ajustes de tamanho para roupas streetwear garante que cada peça tenha um caimento perfeito, adaptado ao cliente.<br><br></p>
+      </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2024 AMBHAR. Todos os direitos reservados.</p>
+    <p><a href="#contact" style="color: #585856; text-decoration: none;">Entre em contato conosco</a></p>
+  </footer>
+
+</body>
+</html>

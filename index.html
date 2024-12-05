@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      
+    }
+
+    .topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+    .hero {
+      background-image: url(logo.png);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-size: cover;
+      margin-bottom: -10px;
+      background-position: center;
+      color: white;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    .about {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      position: relative;
+            animation: mymove 2s;
+            animation-fill-mode: forwards;
+        }
+            #about {animation-timing-function: ease;}
+
+        @keyframes mymove {
+  from {left: -100px;}
+  to {left:-25px;}
+        }
+    .about h2 {
+      font-size: 2.5em;
+      color:  #000000;;
+      margin-bottom: 20px;
+    }
+    .about p {
+      color: #666;
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 20px auto;
+      max-width: 1000px;
+      position: relative;
+            animation: mymove 2s;
+            animation-fill-mode: forwards;
+    }
+    .section-box {
+      flex: 1 1 300px;
+      background-color: #f4f4f4;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .section-box h3 {
+      font-size: 1.5em;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+    .section-box p {
+      color: #333;
+    }
+
+    .footer {
+      background-color: #000000;
+      background-image:url(footer.jpg);
+      color: #fff;
+      text-align: center;
+      padding: 2%;
+    }
+    .footer p {
+      margin: 10px 0;
+    }
+   .imagem{
+    margin-left:50%;
+    margin-top:-10%;
+    
+
+   }
+  
+  </style>
+</head>
+<body>
+
+  <div class="topnav">
+    <a href="index.html">Principal</a>
+    <a href="historia.html">História</a>
+    <a href="qmsomos.html">Quem somos</a>
+    <a href="servicos.html" >Serviços</a>
+    <a href="contato.html" >Contato</a>
+    
+</div>
+    
+  </div>
+  <section class="hero">
+    <div>
+
+    </div>
+  </section>
+
+  <div class="about" id="about">
+    <h2>AMBHAR</h2>
+    <p>
+      Moda urbana e contemporâneo<br>
+      para os amantes do streetwear.<br>
+      Alcance seu estilo único com a<br>
+      AMBHAR.
+
+    </p>
+  </div>
+
+  <div class="sections" id="about">
+    <div class="section-box">
+      <h3>Estilo e Exclusividade</h3>
+      <p>Peças que combinam excelência em qualidade e design autêntico no streetwear.
+      </p>
+    </div>
+    <div class="section-box">
+      <h3>Feedback e Satisfação</h3>
+      <p>Valorização da experiência do cliente, com melhorias constantes baseadas em avaliações.</p>
+    </div>
+    <div class="section-box">
+      <h3>Padrões de Produção</h3>
+      <p>Controle rigoroso em cada etapa, do design ao acabamento final</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2024 AMBHAR. Todos os direitos reservados.</p>
+    <p><a href="#contact" style="color: #585856; text-decoration: none;">Entre em contato conosco</a></p>
+  </div>
+
+</body>
+</html>
